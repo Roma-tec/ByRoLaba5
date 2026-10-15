@@ -1,0 +1,24 @@
+PASS  1 --change--> 5
+PASS  1 --addWater--> 2
+PASS  1 --addCoffee--> 3
+PASS  2 --change--> 6
+PASS  2 --addCoffee--> 4
+PASS  3 --change--> 7
+PASS  3 --addWater--> 4
+PASS  4 --change--> 8
+PASS  5 --change--> 1
+PASS  5 --addWater--> 6
+PASS  5 --addCoffee--> 7
+PASS  6 --change--> 2
+PASS  6 --addCoffee--> 8
+PASS  7 --change--> 3
+PASS  7 --addWater--> 8
+PASS  8 --change--> 4
+PASS  8 --startBrew--> 9
+PASS  9 --change--> 4
+PASS  9 --finishBrew--> 10
+PASS  10 --change--> 1
+PASS  10 --pourCoffee--> 5
+
+Запрещённые события (состояние не меняется, метод вернул false) тоже проверены.
+Итого: пройдено 61, ошибок 0
